@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!--version 5-->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!--La configuracion de idiomas y caracteres especiales como simbolo o la ñ-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--navegadores - internet explorer- edge viejo-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Ayuda a que el viewport se ajuste el contenido desde un inicio (mas no es el total responsivo - dispositivos etc)-->
+  <title>Twenty one pilots</title>
+
+  <link rel="shortcut icon" href="imagenes/icono.ico" type="imagenes">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Roboto:wght@300&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- CSS - Interno -->
+
+  <!-- <style>
+
+body {
+
+    background-color: #d595e9f6;
+
+}
+
+</style> -->
+</head>
+
+
+<body>
+
+
+  <!-- Semantica HTML
+    La semnatica en el HTML y  HTML5
+    se reifere al significado o informacion extra que otorgan los
+    elementos o etiquetas del lenguaje-->
+
+  <header>
+    <!-- Contenedor -->
+    <!-- Css en Linea
+
+    <div style="background-color: royalblue ; " >
+    -->
+    <div class="logo">
+      <img class="logoimagen" src="imagenes/logoparacentrar.png" alt="logo" />
+    </div>
+
+    <nav>
+      <!--  -->
+      <ul class="barradenavegacion">
+        <li class="navegacion"><a target="_blank" href="segundapagina.html"> BIO </a></li>
+        <li class="navegacion"><a href="#section1">INFO</a></li>
+        <li class="navegacion"><a href="#section2"> MUSIC </a></li>
+        <li class="navegacion"><a href="#section3">Videos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Seccion Parallax-->
+  <section>
+
+    <article>
+
+      <div class="parallax">
+        <div class=".cajaparallax tituloparallax">
+          <h2>Nombre de Album </h2>
+          <!--Contenedor en Linea-->
+
+          <span class="parrafoparallax">
+
+            <a href="">
+              <p>Get Now</p>
+            </a>
+
+          </span>
+
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section>
+
+    <article>
+
+      <div id="section1" class="informacion">
+          
+          <h1>
+            <class=titulobanda">
+          </h1>
+          <p>
+
+
+            <!-- Salto de linea -->
+            <!-- etiueta vacia - no necesitan de cierta informacion como texto o contenido-->
+            <br />
+            <!--investigar que es br-->
+            <br />
+            <br />
+
+            Twenty One Pilots (estilizado en minúsculas o como twenty øne piløts) es un dúo musical estadounidense de
+            Columbus,
+            Ohio. La banda se formó en 2009 por el vocalista Tyler Joseph junto con Nick Thomas y Chris Salih,
+            quienes se fueron en 2011. Desde su partida, la formación ha consistido en Tyler Joseph y el baterista Josh
+            Dun.
+            El dúo es mejor conocido por los sencillos "Stressed Out", "Ride" y "Heathens".
+            El grupo recibió un Premio Grammy al mejor pop de dúo/grupo en los Premios Grammy de 2017.
+
+            <br />
+            <br />
+
+            <p />
+
+            <img src="imagenes/album3.png" alt="">
+
+
+
+
+      </div>
+    </article>
+  </section>
+
+  <section id="section2" class="contentmusic">
+    <h2>MUSIC</h2>
+    <!-- Primer Container -->
+    <div class="container">
+      <!-- Primera carta -->
+      <div class="card">
+        <img src="imagenes/live.jpg" alt="album6" />
+        <h4>Live Stream Experience</h4>
+        <p>Año 2021 - presente</p>
+        <a href="#">Leer más</a>
+      </div>
+
+      <!-- Segunda carta -->
+      <div class="card">
+        <img src="imagenes/actual.jpg" alt="album5" />
+        <h4>Scale and icy</h4>
+        <p>Año 2021</p>
+        <a href="#">Leer más</a>
+      </div>
+
+      <!-- Tercera carta -->
+      <div class="card">
+        <img src="imagenes/album2.jpg" alt="album4" />
+        <h4>Trench</h4>
+        <p>5 de octubre de 2018</p>
+        <a href="#">Leer más</a>
+      </div>
+    </div>
+
+    <!-- Segundo container -->
+    <div class="container">
+
+      <!-- Cuarta carta -->
+      <div class="card">
+        <img src="imagenes/blurryface.jpg" alt="album3" />
+        <h4>Blurryface</h4>
+        <p>25 de noviembre de 2016</p>
+        <a href="#">Leer más</a>
+      </div>
+
+      <!-- Quinta carta -->
+      <div class="card">
+        <img src="imagenes/vessel.png" alt="album2">
+        <h4>Vessel</h4>
+        <p>8 de Enero de 2013</p>
+        <a href="">Leer más</a>
+      </div>
+
+      <!-- Sexta Carta -->
+
+      <div class="card">
+        <img src="imagenes/RegionalAtBest.jpg" alt="album1">
+        <h4>Regional At Best</h4>
+        <p>8 de julio de 2011</p>
+        <a href="">Leer más</a>
+      </div>
+    </div>
+  </section>
+
+  <section> 
+    <div class="videos" id="section3">
+      <div class="imagensection">
+
+        <img src="imagenes/logomusic.jpg" alt="logo">
+
+
+      </div>
+
+
+      <div class="iframeprincipal">
+
+
+        <!-- <video controls src=""></video> -->
+        <!--permite colocar un elemento html dentro de otro video html principal-->
+
+
+
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/f54ssI1umS0" title="YouTube video player"
+          frameborder="30"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+
+      </div>
+
+      <div class="iframes">
+
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/eynypHCqWlA" title="YouTube video player"
+          frameborder="30"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/C5R7NjC-aBE" title="YouTube video player"
+          frameborder="30"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!--Pie de pagina-->
+  <footer>
+
+    <div class="final">
+
+      <p> © 2021 copyright fbr y tøp
+        condiciones de uso | política de privacidad | opciones de anuncios | política de cookies | no venda mi
+        información personal</p>
+
+
+    </div>
+
+
+  </footer>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
